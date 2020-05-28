@@ -10,17 +10,13 @@
             }
             
             ul{
+                font-size: 1.3vw;
                 list-style-type: none;
                 padding: 0;
                 margin: 0;
                 overflow: hidden;
                 display: block;
                 background-color: #d10404;
-            }
-            
-            #inicio{
-                float: left;
-                margin-left: 150px;
             }
             
             li{
@@ -31,12 +27,21 @@
                 color: white;
                 display: block;
                 text-decoration: none;
-                padding: 16px 100px;
+                padding: 1.3vw 3vw;
             }
             
             li a:hover{
-                padding: 16px 100px;
+                padding: 1.3vw 3vw;
                 background-color: #730000;
+            }
+            
+            .table{
+                display: table;
+                margin: 0 auto;
+            }
+            
+            .menu{
+                background-color: #d10404;
             }
             
         </style>
@@ -45,12 +50,16 @@
     <body>
     
         <h1 style="margin:20px">Licorería Daberusa</h1>
-        <ul>
-            <li><a id="inicio" href="inicio.html">Inicio</a></li>
-            <li><a href="nosotros.html">Nosotros</a></li>
-            <li><a href="contacto.html">Contacto</a></li>
-            <li><a href="productos.html">Productos</a></li>
-        </ul>
+        <div class="menu">
+            <div class="table">
+                <ul>
+                    <li><a href="inicio.html">Inicio</a></li>
+                    <li><a href="nosotros.html">Nosotros</a></li>
+                    <li><a href="contacto.html">Contacto</a></li>
+                    <li><a href="productos.html">Productos</a></li>
+                </ul>
+            </div>
+        </div>
         
     </body>
     
